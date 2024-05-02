@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="../../Kedar/Education_Website/public/navstyle.css">
+</head>
+<body>
+    
+    <div class="navbar_responsive">
+
+        <ul class="mob_sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/Kedar/Education_Website/public/index.html">Gurukul</a></li>
+            <li><a href="/Kedar/Education_Website/public/index.html">Home</a></li>
+            <li><a href="#">Our Courses<i class="fas fa-caret-right"></i></a>
+                
+                <ul class="Navbardropdown">
+                 <li style="text-align: left !important; "><a href="../../../Ravikant singh/courses.html">HTML</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">CSS</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">JAVASCRIPT</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">REACT</a></li>
+                </ul>
+             
+            </li>
+            <li><a href="#">MORE<i class="fas fa-caret-right"></i></a>
+                
+                    <ul class="Navbardropdown">
+                     <li ><a href="#">Review<i class="fas fa-caret-right"></i></a>
+                        <ul class="Navbardropdown">
+                            <li><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Student</a></li>
+                            <li><a href="../../../Hariom1/HARIOM_SHARMA1/index.html">Teacher</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="../../../Ravikant singh/playlist.html">Playlist</a></li>
+                    <li><a href="../../../Ravikant singh/watch-video.html">Watch Video</a></li>
+                    </ul>
+                 
+                </li>
+            <li><a href="../../../Piyush/about.html">About Us</a></li>
+            <li><a href="../../../sumit/Gurukul/blog.html">Blog</a></li>
+            <li><a href="../../../Nandan/index.html">Contact Us</a></li>
+            <li><a href="../../../PRAGATI/SignIn-SignUp-Form/index.html">LogIn</a></li>
+        </ul>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+        <ul>
+            <li><a href="/Kedar/Education_Website/public/index.html">Gurukul</a></li>
+            <li class="hideOnMobile"><a href="/Kedar/Education_Website/public/index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Our Courses<i class="fas fa-caret-down" ></i></a>
+                 
+                <ul class="Navbardropdown">
+                <li ><a href="../../../Ravikant singh/courses.html">HTML</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">CSS</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">JAVASCRIPT</a></li>
+                <li><a href="../../../Ravikant singh/courses.html">REACT</a></li>
+                </ul>
+            
+        </li>
+            <li class="hideOnMobile"><a href="#">MORE<i class="fas fa-caret-down" ></i></a>
+                 
+                    <ul class="Navbardropdown">
+                    <li style="text-align: left !important;"><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Review<i class="fas fa-caret-right"></i></i></a>
+                        <ul class="Navbardropdown">
+                            <li><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Student</a></li>
+                            <li><a href="../../../Hariom1/HARIOM_SHARMA1/index.html">Teacher</a></li>
+                            </ul>    
+                    </li>
+                    <li><a href="../../../Ravikant singh/playlist.html">Playlist</a></li>
+                    <li><a href="../../../Ravikant singh/watch-video.html">Watch Video</a></li>
+                    </ul>
+                
+            </li>
+            <li class="hideOnMobile"><a href="../../../Piyush/about.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="../../../sumit/Gurukul/blog.html">Blog</a></li>
+            <li class="hideOnMobile"><a href="../../../Nandan/index.html">Contact Us</a></li>
+            <li class="hideOnMobile"><a href="../../../PRAGATI/SignIn-SignUp-Form/index.html">LogIn</a></li>
+            <li class="menu__button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        
+    </div>
+    <script>
+        function showSidebar(){
+            const mob_sidebar=document.querySelector('.mob_sidebar')
+            mob_sidebar.style.display='flex'
+        }
+        function hideSidebar(){
+            const mob_sidebar=document.querySelector('.mob_sidebar')
+            mob_sidebar.style.display='none'
+        }
+        
+    </script>
+
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="image3.png" alt="" >
+                <h3>Learn About Web Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati.Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi? Officia tenetur adipisci amet illo sint consequuntur fuga alias earum vero, dolore, quam neque aspernatur nihil dignissimos explicabo voluptatibus, rerum natus fugit asperiores nesciunt soluta quibusdam ut. Repellat in hic dolores culpa soluta ab vel sit sint minus odit, dolorem adipisci recusandae iste animi corporis sed? Accusantium quod aut ut maxime illum quasi nulla, voluptas corrupti ab voluptate consequatur nostrum doloribus sit omnis reprehenderit optio hic voluptatem placeat fugit. Unde, deleniti. Odit consequatur vitae nemo corporis inventore saepe! Debitis, esse nam. Alias corporis doloremque recusandae exercitationem tenetur architecto, maiores amet perferendis natus, facere reprehenderit odio, laborum sapiente laboriosam velit! Porro fugiat, repellendus aperiam ipsum esse sapiente quo asperiores consectetur rem eius, ipsa explicabo totam enim reiciendis vero, deserunt distinctio est debitis qui eaque culpa? Vitae tenetur recusandae maxime, accusantium id cumque repudiandae dolorem esse corrupti molestiae. Repudiandae dolor deserunt earum, recusandae nisi cum, soluta nam beatae neque praesentium, temporibus magnam minus suscipit facilis? Odit aperiam nobis eaque commodi! Ad animi blanditiis vero enim sequi aperiam magnam tenetur sunt asperiores eum. Quaerat nemo cupiditate ducimus architecto veritatis ullam sapiente totam inventore eum! Maxime consequatur error praesentium, ut eaque quos iste mollitia! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio reprehenderit illum consequuntur fugit obcaecati soluta repudiandae cupiditate quisquam unde minus, velit perspiciatis ducimus sunt aperiam illo sequi sapiente porro suscipit. Blanditiis illum, labore quisquam doloremque suscipit maiores repellendus numquam quo optio! Repellendus recusandae soluta porro quas cumque laudantium reprehenderit? <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid cumque at. Saepe tempora aliquid qui facere, fuga tempore odio a officiis! Rem eius mollitia blanditiis labore nihil hic dolorem dolore dicta voluptates nesciunt! Reiciendis doloribus minima totam exercitationem cumque deserunt fuga, quidem, voluptatibus voluptatem vitae repudiandae amet suscipit autem ipsam recusandae explicabo eligendi sequi asperiores eos blanditiis consequuntur enim at necessitatibus? Ratione, libero ex illum laborum accusantium doloremque? Obcaecati soluta voluptatibus quis? Quas quam, sequi neque ipsum labore laboriosam consequuntur dicta exercitationem fugit ullam nisi assumenda ea cumque voluptas laudantium enim excepturi optio accusantium, natus illo. Eaque voluptates culpa consequuntur cupiditate consectetur, unde pariatur, itaque officia ea fugiat consequatur illum ut atque ipsam a voluptatem odit beatae quo porro expedita eveniet! Fugiat dolorem aut temporibus, dolores ab porro voluptate impedit officia modi corrupti maxime blanditiis earum a facere. Dolores, quod ipsam repellendus voluptas adipisci quis quaerat quidem doloremque facilis.  </p>
+                <a href="post.html">Read Next ?</a>
+            </div>
+            <div class="post">
+                <img src="image2.png" alt="" >
+                <h3>Learn About App Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati.Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi? Officia tenetur adipisci amet illo sint consequuntur fuga alias earum vero, dolore, quam neque aspernatur nihil dignissimos explicabo voluptatibus, rerum natus fugit asperiores nesciunt soluta quibusdam ut. Repellat in hic dolores culpa soluta ab vel sit sint minus odit, dolorem adipisci recusandae iste animi corporis sed? Accusantium quod aut ut maxime illum quasi nulla, voluptas corrupti ab voluptate consequatur nostrum doloribus sit omnis reprehenderit optio hic voluptatem placeat fugit. Unde, deleniti. Odit consequatur vitae nemo corporis inventore saepe! Debitis, esse nam. Alias corporis doloremque recusandae exercitationem tenetur architecto, maiores amet perferendis natus, facere reprehenderit odio, laborum sapiente laboriosam velit! Porro fugiat, repellendus aperiam ipsum esse sapiente quo asperiores consectetur rem eius, ipsa explicabo totam enim reiciendis vero, deserunt distinctio est debitis qui eaque culpa? Vitae tenetur recusandae maxime, accusantium id cumque repudiandae dolorem esse corrupti molestiae. Repudiandae dolor deserunt earum, recusandae nisi cum, soluta nam beatae neque praesentium, temporibus magnam minus suscipit facilis? Odit aperiam nobis eaque commodi! Ad animi blanditiis vero enim sequi aperiam magnam tenetur sunt asperiores eum. Quaerat nemo cupiditate ducimus architecto veritatis ullam sapiente totam inventore eum! Maxime consequatur error praesentium, ut eaque quos iste mollitia! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio reprehenderit illum consequuntur fugit obcaecati soluta repudiandae cupiditate quisquam unde minus, velit perspiciatis ducimus sunt aperiam illo sequi sapiente porro suscipit. Blanditiis illum, labore quisquam doloremque suscipit maiores repellendus numquam quo optio! Repellendus recusandae soluta porro quas cumque laudantium reprehenderit? <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid cumque at. Saepe tempora aliquid qui facere, fuga tempore odio a officiis! Rem eius mollitia blanditiis labore nihil hic dolorem dolore dicta voluptates nesciunt! Reiciendis doloribus minima totam exercitationem cumque deserunt fuga, quidem, voluptatibus voluptatem vitae repudiandae amet suscipit autem ipsam recusandae explicabo eligendi sequi asperiores eos blanditiis consequuntur enim at necessitatibus? Ratione, libero ex illum laborum accusantium doloremque? Obcaecati soluta voluptatibus quis? Quas quam, sequi neque ipsum labore laboriosam consequuntur dicta exercitationem fugit ullam nisi assumenda ea cumque voluptas laudantium enim excepturi optio accusantium, natus illo. Eaque voluptates culpa consequuntur cupiditate consectetur, unde pariatur, itaque officia ea fugiat consequatur illum ut atque ipsam a voluptatem odit beatae quo porro expedita eveniet! Fugiat dolorem aut temporibus, dolores ab porro voluptate impedit officia modi corrupti maxime blanditiis earum a facere. Dolores, quod ipsam repellendus voluptas adipisci quis quaerat quidem doloremque facilis.  </p>
+                <a href="post.html">Read Next ?</a>
+            </div>
+            <div class="post">
+                <img src="image1.png" alt="" >
+                <h3>Learn About .Net Development In The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati.Error labore natus nemo fuga debitis, aut tenetur voluptates id nesciunt magnam libero. Inventore fugit consequuntur consectetur totam ratione sunt obcaecati <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi? Officia tenetur adipisci amet illo sint consequuntur fuga alias earum vero, dolore, quam neque aspernatur nihil dignissimos explicabo voluptatibus, rerum natus fugit asperiores nesciunt soluta quibusdam ut. Repellat in hic dolores culpa soluta ab vel sit sint minus odit, dolorem adipisci recusandae iste animi corporis sed? Accusantium quod aut ut maxime illum quasi nulla, voluptas corrupti ab voluptate consequatur nostrum doloribus sit omnis reprehenderit optio hic voluptatem placeat fugit. Unde, deleniti. Odit consequatur vitae nemo corporis inventore saepe! Debitis, esse nam. Alias corporis doloremque recusandae exercitationem tenetur architecto, maiores amet perferendis natus, facere reprehenderit odio, laborum sapiente laboriosam velit! Porro fugiat, repellendus aperiam ipsum esse sapiente quo asperiores consectetur rem eius, ipsa explicabo totam enim reiciendis vero, deserunt distinctio est debitis qui eaque culpa? Vitae tenetur recusandae maxime, accusantium id cumque repudiandae dolorem esse corrupti molestiae. Repudiandae dolor deserunt earum, recusandae nisi cum, soluta nam beatae neque praesentium, temporibus magnam minus suscipit facilis? Odit aperiam nobis eaque commodi! Ad animi blanditiis vero enim sequi aperiam magnam tenetur sunt asperiores eum. Quaerat nemo cupiditate ducimus architecto veritatis ullam sapiente totam inventore eum! Maxime consequatur error praesentium, ut eaque quos iste mollitia! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio reprehenderit illum consequuntur fugit obcaecati soluta repudiandae cupiditate quisquam unde minus, velit perspiciatis ducimus sunt aperiam illo sequi sapiente porro suscipit. Blanditiis illum, labore quisquam doloremque suscipit maiores repellendus numquam quo optio! Repellendus recusandae soluta porro quas cumque laudantium reprehenderit? <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aliquid cumque at. Saepe tempora aliquid qui facere, fuga tempore odio a officiis! Rem eius mollitia blanditiis labore nihil hic dolorem dolore dicta voluptates nesciunt! Reiciendis doloribus minima totam exercitationem cumque deserunt fuga, quidem, voluptatibus voluptatem vitae repudiandae amet suscipit autem ipsam recusandae explicabo eligendi sequi asperiores eos blanditiis consequuntur enim at necessitatibus? Ratione, libero ex illum laborum accusantium doloremque? Obcaecati soluta voluptatibus quis? Quas quam, sequi neque ipsum labore laboriosam consequuntur dicta exercitationem fugit ullam nisi assumenda ea cumque voluptas laudantium enim excepturi optio accusantium, natus illo. Eaque voluptates culpa consequuntur cupiditate consectetur, unde pariatur, itaque officia ea fugiat consequatur illum ut atque ipsam a voluptatem odit beatae quo porro expedita eveniet! Fugiat dolorem aut temporibus, dolores ab porro voluptate impedit officia modi corrupti maxime blanditiis earum a facere. Dolores, quod ipsam repellendus voluptas adipisci quis quaerat quidem doloremque facilis.  </p>
+                <a href="post.html">Read Next ?</a>
+            </div>
+        </div>
+
+        
+    </section>
+</body>
+</html>

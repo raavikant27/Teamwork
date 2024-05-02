@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gurukul Education</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="../../Kedar/Education_Website/public/navstyle.css">
+</head>
+<body>
+  <div class="navbar_responsive">
+
+    <ul class="mob_sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="/Kedar/Education_Website/public/index.html">Gurukul</a></li>
+        <li><a href="/Kedar/Education_Website/public/index.html">Home</a></li>
+        <li><a href="#">Our Courses<i class="fas fa-caret-right"></i></a>
+            
+            <ul class="Navbardropdown">
+             <li style="text-align: left !important; "><a href="../../../Ravikant singh/courses.html">HTML</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">CSS</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">JAVASCRIPT</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">REACT</a></li>
+            </ul>
+         
+        </li>
+        <li><a href="#">MORE<i class="fas fa-caret-right"></i></a>
+            
+                <ul class="Navbardropdown">
+                 <li ><a href="#">Review<i class="fas fa-caret-right"></i></a>
+                    <ul class="Navbardropdown">
+                        <li><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Student</a></li>
+                        <li><a href="../../../Hariom1/HARIOM_SHARMA1/index.html">Teacher</a></li>
+                        </ul>
+                    </li>
+                <li><a href="../../../Ravikant singh/playlist.html">Playlist</a></li>
+                <li><a href="../../../Ravikant singh/watch-video.html">Watch Video</a></li>
+                </ul>
+             
+            </li>
+        <li><a href="../../../Piyush/about.html">About Us</a></li>
+        <li><a href="../../../sumit/Gurukul/blog.html">Blog</a></li>
+        <li><a href="../../../Nandan/index.html">Contact Us</a></li>
+        <li><a href="../../../PRAGATI/SignIn-SignUp-Form/index.html">LogIn</a></li>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <ul>
+        <li><a href="/Kedar/Education_Website/public/index.html">Gurukul</a></li>
+        <li class="hideOnMobile"><a href="/Kedar/Education_Website/public/index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="#">Our Courses<i class="fas fa-caret-down" ></i></a>
+             
+            <ul class="Navbardropdown">
+            <li ><a href="../../../Ravikant singh/courses.html">HTML</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">CSS</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">JAVASCRIPT</a></li>
+            <li><a href="../../../Ravikant singh/courses.html">REACT</a></li>
+            </ul>
+        
+    </li>
+        <li class="hideOnMobile"><a href="#">MORE<i class="fas fa-caret-down" ></i></a>
+             
+                <ul class="Navbardropdown">
+                <li style="text-align: left !important;"><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Review<i class="fas fa-caret-right"></i></i></a>
+                    <ul class="Navbardropdown">
+                        <li><a href="../../../Hariom1/HARIOM_SHARMA2/index1.html">Student</a></li>
+                        <li><a href="../../../Hariom1/HARIOM_SHARMA1/index.html">Teacher</a></li>
+                        </ul>    
+                </li>
+                <li><a href="../../../Ravikant singh/playlist.html">Playlist</a></li>
+                <li><a href="../../../Ravikant singh/watch-video.html">Watch Video</a></li>
+                </ul>
+            
+        </li>
+        <li class="hideOnMobile"><a href="../../../Piyush/about.html">About Us</a></li>
+        <li class="hideOnMobile"><a href="../../../sumit/Gurukul/blog.html">Blog</a></li>
+        <li class="hideOnMobile"><a href="../../../Nandan/index.html">Contact Us</a></li>
+        <li class="hideOnMobile"><a href="../../../PRAGATI/SignIn-SignUp-Form/index.html">LogIn</a></li>
+        <li class="menu__button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+    
+</div>
+<script>
+    function showSidebar(){
+        const mob_sidebar=document.querySelector('.mob_sidebar')
+        mob_sidebar.style.display='flex'
+    }
+    function hideSidebar(){
+        const mob_sidebar=document.querySelector('.mob_sidebar')
+        mob_sidebar.style.display='none'
+    }
+    
+</script>
+
+  <header>
+    <h1>Welcome to Gurukul Education</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide traditional Gurukul-style education focusing on HTML, CSS,JavaScript and All Programming Course.</p>
+  </section>
+  <section id="courses">
+    <h2>Our Courses</h2>    
+    <ul>
+      <li>HTML Fundamentals</li>
+      <li>CSS Styling Techniques</li>
+      <li>JavaScript Programming</li>
+      <li>C++</li>
+      <li>JAVA</li>
+      <li>PYTHON</li>
+      <li>#C</li>
+      <li>C</li>
+      <li>etc.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@gurukul.edu</p>
+    <p>Phone: +1234567890</p>
+  </section>
+  <footer>
+    <p>&copy; 2024 Gurukul Education. All rights reserved.</p>
+  </footer>
+ 
+</body>
+</html>

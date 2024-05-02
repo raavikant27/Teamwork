@@ -1,0 +1,125 @@
+#blog-home{
+    background-image: linear-gradient(rgba(9, 5, 54,0.3),rgba(5,4,46,0.7)), url("background.png");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    /* background-color: #898489; */
+
+}
+#blog-home h2{
+    color: rgb(165, 174, 182);
+    font-size: 5rem;
+}
+
+#blog-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+    /* background-color: #898489; */
+}
+#blog-container .blogs{
+    width: 60%;
+}
+
+#blog-container .blogs img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#blog-container  .category{
+    width: 30%;
+
+}
+#blog-container .category h2{
+    padding-bottom: 7px;
+}
+#blog-container .category a{
+    text-decoration: none;
+    color: #757373;
+    font-weight: 600;
+    line-height: 50px;
+}
+#blog-container .blogs .post {
+     padding-bottom: 60px;
+     font-family: Arial, sans-serif;
+}
+
+
+#blog-container .blogs .post h3{
+    color: #29303b;
+    padding: 10px 0 10px 0 ;
+    font-size: 2rem;
+
+}
+#blog-container .blogs  .post p{
+    color: #5b5656;
+    padding-bottom: 20px;
+    font-weight: 200;
+    opacity: 2;
+    font-family: Arial, sans-serif;
+}
+#blog-container .blogs .post a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgba(21,21,100);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+/* for blog post  */
+#blog-container .blogpost{
+    position: absolute;
+    top: 0% ;
+    width: 80%;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    display: flex;  
+    flex-direction: column;                             
+    
+}
+#blog-container .blogpost p{
+    text-align: justify;
+    padding-bottom: 60px !important;
+}
+
+
+/* media query  */
+@media(max-width:412px){
+    #blog-home{
+        
+        padding: 5vw 3vw;
+        height: 30vh;
+        border-radius: 5px;
+        
+    }
+    #blog-container{
+    flex-direction: column;
+    padding: 8vw 4vw;
+    width: 100%;
+    
+    }
+    #blog-container .blogs{
+        width: 90%;
+        
+    }
+    #blog-container .category{
+        width: 100%;
+    }
+    #blog-container .blogpost{
+        width: 90%;
+        margin-top: 30px ;
+    }
+}
+

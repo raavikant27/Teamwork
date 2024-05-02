@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+     line-height: 1.5;
+     font-family: 'Poppins',sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    max-width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style:none;
+}
+.footer{
+    background-color: #24262b;
+    padding:70px 0;
+}
+.footer-col{
+    width:25%;
+    padding:0 15px;
+}
+.footer-col h4{
+    font-size:18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom:30px;
+    font-weight:500;
+    position:relative;
+}
+.footer-col h4::before{
+    content:'';
+    position:absolute;
+    Left:0;
+    bottom:-10px;
+    background-color: #e91e63;
+    height:2px;
+    box-sizing:border-box;
+    width:50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:8px;
+}
+.footer-col .social-links a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:40px 10px 10px 0;
+    text-align:center;
+    Line-height:40px;
+    border-radius:50%;
+    color:#ffffff;
+    transition:all 0.5% ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width:50%;
+        margin: bottom 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+#home{
+    background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("../public/Gurukul.jpg");
+    width: 100%;
+    height:95vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    padding: 40px;
+
+}
+#home h2{
+    color:#fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+#home p {
+    width:50%;
+    color:#fff;
+    font-size: 0.9rem;
+    line-height:25px;
+}
+#home .btn{
+    margin-top:30px;
+}
+#home a{
+    text-decoration:none;
+    font-size:0.9rem;
+    padding:13px 35px;
+    background-color:#fff;
+    font-weight:600;
+    border-radius:5px;
+}
+#home a.blue{
+    color:#fff;
+    background-color: rgb(21,21,100);
+    transition: 0.3 ease;
+
+}
+#home a.blue:hover{
+    color:rgb(21,21,100);
+    background-color:#fff;
+}
+#home a.yellow{
+    color:#fff;
+    background-color: #FDC938;
+    transition: 0.3 ease;
+}
+#home a.yellow:hover{
+    color:rgb(21,21,100);
+    background-color:#fff;
+}
+.logo{
+    width:5%;
+    height:30%;
+    
+} 
+.card {
+    width: 200px;
+    height: 350px;
+    padding: 5px;
+    margin: 22px;
+    box-shadow: 2px 2px 2px black;
+    font-family: Arial;
+}
+.card-img {
+    width: 100%;
+    height: 150px;
+}
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-body {
+    text-align: center;
+}
+.rating {
+    color:goldenrod;
+    margin-bottom: 20px;
+}
+.container1 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.Tot{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.Spa{
+    color: red;
+    font-size: 50px;
+}
+.Up{
+    font-size: 16px;
+    margin-left: 22px;
+}
+.Sub-Sub{
+    width: 1100px;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+#Rig{
+    width: 250px;
+    height: 200px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.Tot1{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+#HR{
+    margin-top: 100px;
+}
+.Button-Color{
+    display: flex;
+    justify-content: center;
+}
+
+
+#Header-Form{
+    background-color: darksalmon;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 100px;
+}
+.Form{
+    display: flex;
+    justify-content: space-between;
+}
+.Gla{
+    font-size: 45px;
+    margin-left: 72px;
+}
+.Heading{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Subheading{
+    font-size: 28px;
+    margin-top: 17px;
+    margin-left: 3px;
+}
+.Sub-subheading{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.Hading{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+.Under{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.QWE{
+    margin-top: 100px;
+}
+#Container{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
